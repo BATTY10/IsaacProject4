@@ -1,0 +1,10 @@
+div a {
+    margin: 0 30px;
+    text-decoration: none
+}
+
+a.active {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: red;
+}

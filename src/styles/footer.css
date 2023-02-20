@@ -1,0 +1,51 @@
+.footerBody {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footerContainer {
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #242C4C;
+    /* max-width: 1500px; */
+    margin: 100px auto 0 auto;
+}
+
+.linkContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.linkContainer p {
+    color: #ACA9C7;
+    text-align: center;
+}
+
+.linkContainer p:hover {
+    color: red;
+}
+
+.jobsContainer {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    gap: 10px;
+    padding-left: 310px;
+}
+
+.jobText {
+    text-align: start;
+    line-height: 0.01rem;
+}
+
+.jobText p {
+    font-size: 0.8rem;
+}
+
+.imageCont img {
+    padding-top: 10px;
+    text-align: center;
+    height: 8vh;
+}
